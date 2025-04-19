@@ -6,7 +6,7 @@ while inp == True:
     if text == 'stop':
         inp = False
     if text != 'stop':
-        
+        text = int(text)
         numbers.append(text)  
         
 swapped = True
@@ -21,5 +21,5 @@ while swapped == True:
             swapped = True
             
         
-    
+   
 print('The Largest number is: ', numbers[-1])
